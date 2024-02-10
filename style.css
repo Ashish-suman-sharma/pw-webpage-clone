@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('background-image.png'); 
+    background-size: cover; 
+    background-position: center;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.navigation ul{
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #0b0a0a;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.serch{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #de305c;
+    color: #fff;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5%;
+}
+.left h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0b0a0a;
+    margin-bottom: 20px;
+}
+.left p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #0b0a0a;
+    margin-bottom: 20px;
+}
+.btn2{
+    margin: 20px 0;
+}
+.left button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #de305c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.below-navbar  {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    padding:5px 20px  ;
+    border-radius: 40px;
+    position: absolute;
+    top: 150px; 
+    left: 50%;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+    transform: translateX(-50%);
+}
+
+.in-main {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    padding:5px 30px  ;
+    border-radius: 40px;
+    position: absolute;
+    top: 300px; 
+    left: 85%;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.below-navbar button{
+    border: none;
+    background-color: transparent;
+}
+
+.in-main button{
+    border: none;
+    background-color: transparent;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid black;
+    padding: 0 10px;
+    margin: 10px;
+    margin-left: 80px;
+}
